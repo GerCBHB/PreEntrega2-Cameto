@@ -1,9 +1,9 @@
 /**
  * 
- * @param {*} id asignado a cada producto1
- * @param {*} producto nombre del producto
- * @param {*} marca marca del producto
- * @param {*} stock cantidad de unidades existentes
+ * @param {*} id
+ * @param {*} producto
+ * @param {*} marca
+ * @param {*} stock
  * @param {*} precioUnitario
  */
 function productos(id, producto, marca, stock, precioUnitario) {
