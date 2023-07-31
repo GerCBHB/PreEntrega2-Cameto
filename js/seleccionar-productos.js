@@ -35,8 +35,8 @@ function obtenerProductosSeleccionados(productosDisponibles) {
 		totalCarrito = carrito.reduce((acc,prod) => acc + (prod.precioUnitario * prod.cantidad),0)
 		console.log(totalCarrito);
 
-		const agregarOtroArticulo = prompt("¿Deseas agregar otro artículo? (S/N)").toLowerCase();
-		seguirAgregando = agregarOtroArticulo === "S";
+		const agregarOtroArticulo = prompt("¿Deseas agregar otro artículo? (s/n)").toLowerCase();
+		seguirAgregando = agregarOtroArticulo === "s";
 	}
 	console.table(carrito);
 	totalCarrito = carrito.reduce((acc,prod) => acc + (prod.precioUnitario * prod.cantidad),0)

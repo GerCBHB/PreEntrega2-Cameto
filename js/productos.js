@@ -6,7 +6,7 @@
  * @param {*} stock
  * @param {*} precioUnitario
  */
-function productos(id, producto, marca, stock, precioUnitario) {
+function productos(id, producto, stock, precioUnitario) {
     this.id = id
     this.producto = producto
     this.marca = marca
@@ -17,7 +17,7 @@ function productos(id, producto, marca, stock, precioUnitario) {
 
 const articulo = new productos(0, "Libreta Unicornio", 100, 120)
 const articulo1 = new productos(1, "Notas Adhesivas Sirena", 50, 80)
-const articulo2 = new productos(2, "Lapiceras de gel", "Filgo", 20, 210)
+const articulo2 = new productos(2, "Lapiceras de gel", 20, 210)
 const articulo3 = new productos(3, "Cartuchera Floreada", 70, 190)
 const articulo4 = new productos(4, "Bibliorato Pastel", 50, 120)
 const articulo5 = new productos(5, "Block de notas", 50, 60)
