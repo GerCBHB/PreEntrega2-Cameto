@@ -10,7 +10,7 @@ const BtnHandleLogin = (e) => {
         cambioColorBtn();
         msgText();
         setTimeout(() => {
-            window.location.href = "http://127.0.0.1:5500/PreEntrega2_Cameto/pages/tienda/tienda.html";
+            window.location.href = "../pages/tienda.html";
         }, 200);
     }
 };
