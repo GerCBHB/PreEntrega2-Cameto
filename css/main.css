@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+nav a.navbar-brand {
+    padding: 5px;
+    margin: 2px;
+    animation-name: marca;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+nav a.navbar-brand img {
+    width: 400px;
+    height: 200px;
+}
+
+nav ul {
+    text-decoration: none;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: bolder;
+}
+
+nav ul li:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.navbar .collapse.navbar-collapse {
+    flex-grow: inherit;
+}
+
+.nav-item {
+    width: 100px;
+    font-size: 18px;
+    padding: 2px;
+    margin: 25px;
+}
+
+.nav-item .nav-link {
+    color: rgb(44, 70, 151);
+}
+
+.nav-item .nav-link:hover {
+    color: black;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.home {
+    padding: 10px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.home main h1 {
+    text-align: center;
+}
+
+.home main div {
+    padding: 5px;
+    margin: 5%;
+}
+
+.home main div p {
+    padding: 5px;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+.compras main {
+    padding: 5px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.compras main section {
+    padding: 5px;
+    margin: 2px;
+}
+
+.compras main section div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.compras main section div.container div.tarjeta {
+    width: 200px;
+    height: 450px;
+    box-shadow: 1px 1px 4px 2px grey;
+    margin: 15px;
+    border-radius: 5px;
+    gap: 20px;
+    background: #E0EAFC;
+    background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);
+    background: linear-gradient(to bottom, #CFDEF3, #E0EAFC);
+}
+
+.compras main section div.container div.tarjeta img {
+    border-radius: 5px;
+    width: auto;
+    height: 250px;
+}
+
+.compras main section div.container div.tarjeta img .card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.compras main section div.container div.tarjeta p {
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.compras main section div.container div.tarjeta .quantity {
+    display: flex;
+    align-items: center;
+}
+
+.compras main section div.container div.tarjeta .quantity a {
+    padding: 5px;
+    margin: 2px;
+}
+
+.compras main section div.container div.tarjeta .quantity a img.pequeña {
+    height: 30px;
+    width: 50px;
+    padding: 2px;
+    margin-top: 2px;
+}
+
+.compras main section div.container div.tarjeta .quantity input {
+    text-align: center;
+    height: 30px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+.compras main section div.container div.tarjeta .quantity button {
+    border-radius: 5px;
+    height: 30px;
+    width: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.compras main section div.container div.tarjeta .quantity input[type=number]::-webkit-inner-spin-button,
+.compras main section div.container div.tarjeta .quantity input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.compras main section div.container div.tarjeta .quantity input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#payment-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#payment-section #payment-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#payment-section #payment-form input {
+    margin-bottom: 10px;
+}
+
+#payment-section #payment-form button {
+    padding: 10px;
+}
+
+.cont {
+    padding: 10px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.cont form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+footer {
+    border-top: 1px solid;
+    padding: 30px;
+    margin: 20px;
+}
+
+footer section {
+    text-decoration: none;
+}
+
+footer section ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style: none;
+    margin: 2px;
+    padding: 5px;
+}
+
+footer section ul li {
+    text-align: center;
+    margin: 20px;
+}
+
+footer section ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+footer section ul li:hover {
+    transform: scale(1.3);
+}
+
+footer p {
+    text-align: center;
+}
+
+body footer p {
+    text-align: center;
+}
