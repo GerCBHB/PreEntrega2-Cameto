@@ -2,6 +2,7 @@
  * 
  * @param {*} id
  * @param {*} producto
+ * @param {*} marca
  * @param {*} stock
  * @param {*} precioUnitario
  */
