@@ -2,7 +2,6 @@
  * 
  * @param {*} id
  * @param {*} producto
- * @param {*} marca
  * @param {*} stock
  * @param {*} precioUnitario
  */
@@ -10,7 +9,6 @@ function productos(id, producto, stock, precioUnitario) {
     this.id = id
     this.producto = producto
     this.stock = stock
-    this.cantidad = 0
     this.precioUnitario = precioUnitario
 }
 
